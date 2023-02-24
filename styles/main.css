@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 10vh;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.timer__controls{
+    /*General properties*/
+    list-style: none;
+    height: 15vh;
+    /*Display*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.timer__controls--btn{
+    /*General properties*/
+    cursor: pointer;
+    width: 150px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    border: transparent;
+    /*Display*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer__controls--btn:hover{
+    background-color: rgba(0, 0, 0, 0.471);   
+}
+
+.timer__controls--input{
+    /*General properties*/
+    cursor: pointer;
+    width: 150px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.141);
+    border: transparent;
+    /*Display*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display{
+    /*General properties*/
+    height: 75vh;
+    /*Display*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.display__time--left{
+    font-size: 120px;
+}
+
+.display__time--end{
+    font-size: 20px;
+    text-transform: capitalize;
+}

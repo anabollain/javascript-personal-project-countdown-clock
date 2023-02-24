@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Countdown Clock</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Timer</h1>
+    </header>
+    <main>
+        <section class="timer">
+            <ul class="timer__controls">
+                <li><button data-time="20" class="timer__controls--btn">20 secs</button></li>
+                <li><button data-time="300" class="timer__controls--btn">Work 5</button></li>
+                <li><button data-time="900" class="timer__controls--btn">Quick 15</button></li>
+                <li><button data-time="1200" class="timer__controls--btn">Snack 20</button></li>
+                <li><button data-time="3600" class="timer__controls--btn">Lunch break</button></li>
+                <li>
+                    <form name="minutes" id="minutes-form" class="js-timer-form">
+                        <input type="text" name="minutes" placeholder="Enter minutes" class="timer__controls--input"></input>
+                    </form>
+                </li>
+            </ul> 
+        </section>
+        <section class="display">
+            <h2 class="display__time--left">0:00</h2>
+            <p class="display__time--end">Be back at ...</p>
+        </section>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+</html>
